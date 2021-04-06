@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-Shan-Hai/[Ll]ibrary/
-Shan-Hai/[Tt]emp/
-Shan-Hai/[Oo]bj/
-Shan-Hai/[Bb]uild/
-Shan-Hai/[Bb]uilds/
-Shan-Hai/[Ll]ogs/
-Shan-Hai/[Mm]emoryCaptures/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
@@ -60,3 +60,4 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+

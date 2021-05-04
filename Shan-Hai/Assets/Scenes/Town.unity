@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 209026389}
   - component: {fileID: 209026392}
   m_Layer: 0
-  m_Name: npc
+  m_Name: Beggar
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2062,10 +2062,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1276357834839530233, guid: 0f75ca8b34e628e4680be95da730bfc2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9152663
+      objectReference: {fileID: 0}
     - target: {fileID: 1660576684402924943, guid: 0f75ca8b34e628e4680be95da730bfc2,
         type: 3}
       propertyPath: m_Name
       value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660576684580916682, guid: 0f75ca8b34e628e4680be95da730bfc2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2294245519987180035, guid: 0f75ca8b34e628e4680be95da730bfc2,
         type: 3}
@@ -2170,6 +2180,28 @@ PrefabInstance:
     - target: {fileID: 2294245519987180035, guid: 0f75ca8b34e628e4680be95da730bfc2,
         type: 3}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4430447126441602571, guid: 0f75ca8b34e628e4680be95da730bfc2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -15.342529
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175573594834091154, guid: 0f75ca8b34e628e4680be95da730bfc2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a64877d604f1ea8458075bf03c5bdad0,
+        type: 3}
+    - target: {fileID: 8885277335717265666, guid: 0f75ca8b34e628e4680be95da730bfc2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e14cae50a0b53454aa40005cf91381d0,
+        type: 3}
+    - target: {fileID: 8885277335717265666, guid: 0f75ca8b34e628e4680be95da730bfc2,
+        type: 3}
+      propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
